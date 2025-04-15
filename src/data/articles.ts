@@ -149,7 +149,7 @@ Si hay algo que aprender del caso de Rappi, es que las startups exitosas tienen 
     title: '¿Qué está haciendo Brasil para liderar las startups tech en Latam? Y, ¿qué puede aprender Perú?',
     emoji: '💻',
     description: '¿Qué podemos aprender de Brasil y su liderazgo en el ecosistema startup latinoamericano?',
-    imageSrc: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b',
+    imageSrc: 'https://www.totvs.com/wp-content/uploads/2025/02/startups-brasileiras.jpg',
     featured: false,
     content: `.
 🚀 ¿Qué está haciendo Brasil para liderar las startups tech en Latam? Y, ¿qué puede aprender Perú?
