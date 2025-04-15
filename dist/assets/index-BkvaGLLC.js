@@ -219,57 +219,39 @@ Error generating stack: `+i.message+`
   - \`null\` or \`undefined\` if the progress is indeterminate.
 
 Defaulting to \`null\`.`}var Yw=qw,TL=Gw;const Xw=v.forwardRef(({className:e,value:t,...n},r)=>p.jsx(Yw,{ref:r,className:Ee("relative h-4 w-full overflow-hidden rounded-full bg-secondary",e),...n,children:p.jsx(TL,{className:"h-full w-full flex-1 bg-primary transition-all",style:{transform:`translateX(-${100-(t||0)}%)`}})}));Xw.displayName=Yw.displayName;const st=[{question:"¿Cuál es la mejor manera de validar una idea de startup?",options:["Construir el producto completo de inmediato","Realizar investigación de mercado y crear un MVP","Buscar inversores sin un prototipo","Mantener la idea en secreto para evitar copias"],correctAnswer:1},{question:"¿Qué es un 'pivot' en el mundo startup?",options:["Una ronda de financiación","Un cambio significativo en la estrategia de negocio","Un evento de lanzamiento","Una técnica de marketing digital"],correctAnswer:1},{question:"¿Qué significa 'bootstrapping' en startups?",options:["Financiar tu startup con fondos propios sin inversión externa","Utilizar IA para automatizar procesos","Diseñar un logo atractivo","Preparar una presentación para inversores"],correctAnswer:0}],kL=()=>{const[e,t]=v.useState(0),[n,r]=v.useState(null),[s,i]=v.useState(0),[o,a]=v.useState(!1),[l,u]=v.useState(!1),[c,f]=v.useState(!1),d=()=>{f(!0)},h=g=>{l||r(g)},y=()=>{n!==null&&(u(!0),n===st[e].correctAnswer&&i(s+1))},x=()=>{r(null),u(!1),e<st.length-1?t(e+1):a(!0)},b=()=>{t(0),r(null),i(0),a(!1),u(!1),f(!1)},m=e/st.length*100;return p.jsx("section",{className:"py-20 bg-gradient-to-b from-white to-gray-50",id:"quiz",children:p.jsxs("div",{className:"container max-w-4xl mx-auto",children:[p.jsxs(W.div,{className:"text-center mb-10",initial:{opacity:0,y:20},whileInView:{opacity:1,y:0},viewport:{once:!0},transition:{duration:.5},children:[p.jsx("div",{className:"inline-flex items-center justify-center p-3 bg-nave-blue/10 rounded-full mb-6",children:p.jsx($h,{className:"h-8 w-8 text-nave-blue"})}),p.jsx("h2",{className:"text-3xl md:text-4xl font-bold mb-4 text-gradient-nave",children:"Pon a prueba tus conocimientos"}),p.jsx("p",{className:"text-lg text-foreground/80 max-w-2xl mx-auto",children:"¿Cuánto sabes sobre el ecosistema startup? Realiza este quiz rápido para descubrirlo y recibe recomendaciones personalizadas."})]}),p.jsx(W.div,{className:"bg-white rounded-xl shadow-lg p-8",initial:{opacity:0,scale:.95},whileInView:{opacity:1,scale:1},viewport:{once:!0},transition:{duration:.5},children:c?o?p.jsxs(W.div,{className:"text-center py-6",initial:{opacity:0},animate:{opacity:1},transition:{duration:.5},children:[p.jsx("div",{className:"inline-flex items-center justify-center p-4 bg-nave-green/10 rounded-full mb-6",children:p.jsx($h,{className:"h-10 w-10 text-nave-green"})}),p.jsx("h3",{className:"text-2xl font-bold mb-2",children:"¡Has completado el quiz!"}),p.jsxs("p",{className:"text-3xl font-bold text-nave-blue mb-6",children:["Tu puntuación: ",s," de ",st.length]}),p.jsx("p",{className:"mb-8 text-foreground/80",children:s===st.length?"¡Impresionante! Tienes un gran conocimiento del mundo startup.":s>=st.length/2?"Buen trabajo. Estás en buen camino para convertirte en un experto.":"Hay espacio para mejorar. ¡Suscríbete a nuestro newsletter para aprender más!"}),p.jsxs("div",{className:"flex flex-wrap justify-center gap-4",children:[p.jsx(we,{onClick:b,variant:"outline",className:"hover:bg-nave-blue/5 transition-all duration-300 hover:border-nave-blue",children:"Reiniciar quiz"}),p.jsx(we,{className:"bg-gradient-to-r from-nave-blue to-nave-lightblue hover:shadow-lg hover:translate-y-[-2px] transition-all duration-300",asChild:!0,children:p.jsx("a",{href:"#suscribirse",children:"Suscribirme al newsletter"})})]})]}):p.jsxs("div",{children:[p.jsxs("div",{className:"mb-6",children:[p.jsxs("div",{className:"flex justify-between items-center mb-2 text-sm text-foreground/70",children:[p.jsxs("span",{children:["Pregunta ",e+1," de ",st.length]}),p.jsxs("span",{children:["Puntuación: ",s,"/",e]})]}),p.jsx(Xw,{value:m,className:"h-2 bg-gray-100"})]}),p.jsx("h3",{className:"text-xl md:text-2xl font-bold mb-6",children:st[e].question}),p.jsx(Vw,{className:"space-y-4 mb-8",value:n==null?void 0:n.toString(),onValueChange:g=>h(parseInt(g)),disabled:l,children:p.jsx(uN,{children:st[e].options.map((g,w)=>p.jsxs(W.div,{initial:{opacity:0,y:10},animate:{opacity:1,y:0},transition:{duration:.3,delay:w*.1},className:`flex items-center space-x-2 p-4 border rounded-lg hover:bg-gray-50 cursor-pointer transition-colors ${l&&w===st[e].correctAnswer?"bg-green-50 border-green-200":l&&w===n?"bg-red-50 border-red-200":"border-gray-200"}`,onClick:()=>h(w),children:[p.jsx("div",{className:"flex items-start",children:p.jsx(zw,{value:w.toString(),id:`option-${w}`,className:"mt-1"})}),p.jsx("div",{className:"flex-grow",children:p.jsx(Uw,{htmlFor:`option-${w}`,className:"text-base font-medium cursor-pointer",children:g})}),l&&w===st[e].correctAnswer&&p.jsx(OE,{className:"h-5 w-5 text-green-500"}),l&&w===n&&w!==st[e].correctAnswer&&p.jsx(IE,{className:"h-5 w-5 text-red-500"})]},w))})}),p.jsx("div",{className:"flex justify-center",children:l?p.jsx(we,{onClick:x,className:"w-full sm:w-auto bg-gradient-to-r from-nave-blue to-nave-lightblue hover:shadow-lg hover:translate-y-[-2px] transition-all duration-300 group",children:e<st.length-1?p.jsxs(p.Fragment,{children:["Siguiente pregunta ",p.jsx(mo,{className:"ml-1 h-4 w-4 transition-transform group-hover:translate-x-1"})]}):"Ver resultado"}):p.jsx(we,{onClick:y,disabled:n===null,className:"w-full sm:w-auto bg-gradient-to-r from-nave-blue to-nave-lightblue hover:shadow-lg hover:translate-y-[-2px] transition-all duration-300",children:"Comprobar respuesta"})})]}):p.jsxs(W.div,{className:"text-center py-10",initial:{opacity:0},animate:{opacity:1},transition:{duration:.5},children:[p.jsx("h3",{className:"text-2xl font-bold mb-4",children:"¿Listo para empezar?"}),p.jsx("p",{className:"mb-8 text-foreground/80",children:"Solo 3 preguntas para poner a prueba tus conocimientos sobre startups"}),p.jsx(we,{onClick:d,size:"lg",className:"bg-gradient-to-r from-nave-blue to-nave-lightblue hover:shadow-lg hover:translate-y-[-2px] transition-all duration-300",children:"Comenzar quiz"})]})})]})})},pp=v.forwardRef(({className:e,...t},n)=>p.jsx("div",{ref:n,className:Ee("rounded-lg border bg-card text-card-foreground shadow-sm",e),...t}));pp.displayName="Card";const hp=v.forwardRef(({className:e,...t},n)=>p.jsx("div",{ref:n,className:Ee("flex flex-col space-y-1.5 p-6",e),...t}));hp.displayName="CardHeader";const mp=v.forwardRef(({className:e,...t},n)=>p.jsx("h3",{ref:n,className:Ee("text-2xl font-semibold leading-none tracking-tight",e),...t}));mp.displayName="CardTitle";const gp=v.forwardRef(({className:e,...t},n)=>p.jsx("p",{ref:n,className:Ee("text-sm text-muted-foreground",e),...t}));gp.displayName="CardDescription";const vp=v.forwardRef(({className:e,...t},n)=>p.jsx("div",{ref:n,className:Ee("p-6 pt-0",e),...t}));vp.displayName="CardContent";const yp=v.forwardRef(({className:e,...t},n)=>p.jsx("div",{ref:n,className:Ee("flex items-center p-6 pt-0",e),...t}));yp.displayName="CardFooter";const so=[{id:"que-es-una-startup",title:"¿Qué es una startup y por qué importan?",emoji:"🚀",description:"Descubre qué hace a una startup diferente de un negocio tradicional y por qué están revolucionando el mundo empresarial.",imageSrc:"https://images.unsplash.com/photo-1487887235947-a955ef187fcc",featured:!0,content:`
-    Imagina lo siguiente:
+    🚀 ¿Qué es una startup y por qué importan?
+Imagina lo siguiente:
+Estás en una charla amena con amigos en una cafetería y, de repente, alguien menciona que trabaja en una “startup”. Todos asienten, pero en el fondo te surge la duda: ¿qué es realmente una startup? ¿Por qué es un término tan repetido en el mundo de los negocios y la tecnología? Hoy vamos a sumergirnos en este universo para despejar esas dudas y descubrir cómo este concepto está cambiando la forma en que imaginamos el futuro.
 
-    Estás en una charla amena con amigos en una cafetería y, de repente, alguien menciona que trabaja en una **"startup"**. Todos asienten, pero en el fondo te surge la duda: ¿qué es realmente una startup? ¿Por qué es un término tan repetido en el mundo de los negocios y la tecnología? Hoy vamos a sumergirnos en este universo para despejar esas dudas y descubrir cómo este concepto está cambiando la forma en que imaginamos el futuro.
+🌟 El concepto: Mucho más que un negocio
+Una startup no es simplemente una pequeña empresa; es una máquina de crecimiento. Se trata de una organización emergente diseñada para escalar de forma exponencial, aprovechando la tecnología y modelos de negocio innovadores.
+¿Qué la hace tan especial?
+Escalabilidad:
+Imagina una aplicación que puede llegar a millones de usuarios sin tener que abrir locales físicos. Esa es la capacidad de crecimiento de una startup: expandirse sin que sus costos aumenten al mismo ritmo.
+Innovación disruptiva:
+No se trata solo de vender un producto o servicio, sino de reinventar procesos y resolver problemas de manera radical. Empresas como Uber han revolucionado el transporte; y Netflix, el entretenimiento. Todo partiendo de ideas que rompieron lo establecido.
+Agilidad y adaptabilidad:
+En un entorno lleno de incertidumbre, las startups deben moverse rápido. Si una estrategia no funciona, se ajusta en días, no en años. Esa flexibilidad es esencial para sobrevivir y crecer en mercados cambiantes.
+Financiamiento externo:
+Muchas startups optan por atraer inversión de ángeles, fondos de Venture Capital o, incluso crowdfunding. Esto les permite acelerar su crecimiento y competir a nivel global sin depender únicamente de sus ingresos propios.
 
-    El concepto: Mucho más que un negocio
+🔍 ¿Por qué están revolucionando el mundo?
+Las startups son el motor que impulsa la innovación y transforman industrias enteras. Su impacto va más allá de los números, influyendo en la forma en que vivimos, trabajamos y nos relacionamos.
+Motor de innovación:
+Las ideas surgidas en startups han dado origen a servicios y tecnologías que usamos a diario. Desde apps de delivery hasta plataformas de streaming, estas empresas han roto esquemas y ofrecido soluciones revolucionarias.
+Generadoras de oportunidades:
+El ecosistema startup crea ambientes laborales vibrantes y dinámicos. Trabajar en una startup significa aprender rápidamente, asumir responsabilidades desde el inicio y desarrollar habilidades que te preparan para el futuro.
+Inspiración para soñar en grande:
+Las historias de éxito —como las de Uber, Airbnb o Rappi— nos demuestran que, con pasión y determinación, una idea sencilla puede transformar industrias y cambiar vidas. Estas narrativas nos invitan a creer que el cambio está al alcance de todos.
+🎓 ¿Cómo impacta todo esto en tu futuro?
+Sumergirse en el mundo de las startups te prepara para un futuro lleno de posibilidades. Al explorar este ecosistema, desarrollas habilidades clave que te permitirán enfrentar desafíos de forma creativa y audaz.
+Aprender a liderar y a tomar riesgos:
+En el mundo startup, cada decisión cuenta. Aprender a evaluar riesgos y a actuar basándote en el potencial, en lugar de la seguridad absoluta, te convierte en un tomador de decisiones innovador.
+Desarrollar creatividad y adaptabilidad:
+La necesidad de adaptarse rápidamente enseña a ver oportunidades en cada obstáculo. Este dinamismo te prepara para resolver problemas de maneras que otros ni siquiera imaginan.
+Construir conexiones y contar historias:
+La fuerza de una startup radica también en su capacidad para conectar con las personas. Aprender a comunicar tu visión y a crear una marca auténtica es tan importante como cualquier solución tecnológica.
 
-    Una startup no es *simplemente* una pequeña empresa; es una **máquina de crecimiento**. Se trata de una organización emergente diseñada para escalar de forma exponencial, aprovechando la tecnología y modelos de negocio innovadores.
-
-    ¿Qué la hace tan **especial**?
-    1. Escalabilidad:
-    2. Innovación disruptiva:
-    3. Agilidad y adaptabilidad:
-    4. Financiamiento externo:
-
-    ## Escalabilidad:
-    Imagina una [aplicación](https://www.friv.com/) que puede **llegar a millones de usuarios** sin tener que abrir locales físicos. Esa es la capacidad de crecimiento de una startup: expandirse sin incrementar proporcionalmente los costos.
-
-    **Innovación disruptiva:**
-    No se trata solo de vender un producto o servicio, sino de reinventar procesos y resolver problemas de manera radical. Empresas como *Uber* han revolucionado el transporte, y *Netflix*, el entretenimiento, todo partiendo de ideas que rompieron con lo establecido.
-
-    **Agilidad y adaptabilidad:**
-    En un entorno lleno de incertidumbre, las startups deben moverse rápido. Si una estrategia no funciona, se ajusta en días, no en años. Esa flexibilidad es esencial para sobrevivir y crecer en mercados cambiantes.
-
-    **Financiamiento externo:**
-    Muchas startups optan por atraer inversión de ángeles, fondos de Venture Capital o incluso crowdfunding. Esto les permite acelerar su crecimiento y competir a nivel global sin depender únicamente de sus ingresos propios.
-
-    ¿Por qué están revolucionando el mundo?
-
-    Las startups son el motor que impulsa la innovación y transforman industrias enteras. Su impacto va más allá de los números, influyendo en la forma en que vivimos, trabajamos y nos relacionamos.
-
-    **Motor de innovación:**
-    Las ideas surgidas en startups han dado origen a servicios y tecnologías que usamos a diario. Desde apps de delivery hasta plataformas de streaming, estas empresas han roto esquemas y ofrecido soluciones revolucionarias.
-
-    **Generadoras de oportunidades:**
-    El ecosistema startup crea ambientes laborales vibrantes y dinámicos. Trabajar en una startup significa aprender rápidamente, asumir responsabilidades desde el inicio y desarrollar habilidades que te preparan para el futuro.
-
-    **Inspiración para soñar en grande:**
-    Las historias de éxito —como las de *Uber*, *Airbnb* o *Rappi*— nos demuestran que, con pasión y determinación, una idea sencilla puede transformar industrias y cambiar vidas. Estas narrativas nos invitan a creer que el cambio está al alcance de todos.
-
-    ¿Cómo impacta todo esto en tu futuro?
-
-    Sumergirse en el mundo de las startups te prepara para un futuro lleno de posibilidades. Al explorar este ecosistema, desarrollas habilidades clave que te permitirán enfrentar desafíos de forma creativa y audaz.
-
-    **Aprender a liderar y a tomar riesgos:**
-    En el mundo startup, cada decisión cuenta. Aprender a evaluar riesgos y a actuar basándote en el potencial, en lugar de la seguridad absoluta, te convierte en un tomador de decisiones innovador.
-
-    **Desarrollar creatividad y adaptabilidad:**
-    La necesidad de adaptarse rápidamente enseña a ver oportunidades en cada obstáculo. Este dinamismo te prepara para resolver problemas de maneras que otros ni siquiera imaginan.
-
-    **Construir conexiones y contar historias:**
-    La fuerza de una startup radica también en su capacidad para conectar con las personas. Aprender a comunicar tu visión y a crear una marca auténtica es tan importante como cualquier solución tecnológica.
     `,publishedAt:"2023-05-12",readingTime:"10 min",categories:["Fundamentos","Emprendimiento"]},{id:"unicornios-latinoamerica",title:"¿Qué es un unicornio y por qué son tan escasos en Latinoamérica?",emoji:"🦄",description:"Conoce el término que describe a las startups valoradas en más de 1,000 millones de dólares y por qué son raras en nuestra región.",imageSrc:"https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",featured:!1,content:`En el mundo de las startups, el término "unicornio" no tiene nada que ver con criaturas míticas, pero sí con algo igual de raro: empresas emergentes que logran una valoración de 1,000 millones de dólares o más antes de salir a la bolsa.
 
 Este concepto, acuñado en 2013 por la inversionista Aileen Lee, refleja la dificultad de alcanzar ese nivel de éxito en un ecosistema de negocios altamente competitivo.
