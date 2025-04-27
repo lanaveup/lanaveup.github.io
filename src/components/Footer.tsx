@@ -61,7 +61,7 @@ const Footer = () => {
         </div>
         
         <div className="mt-12 pt-6 border-t text-center text-sm text-foreground/50">
-          <p>&copy; {new Date().getFullYear()} La Nave Startup Pulse. Todos los derechos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} StartUpdate. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>
