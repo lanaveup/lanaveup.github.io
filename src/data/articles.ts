@@ -22,7 +22,7 @@ No se trata solo de vender un producto o servicio, sino de reinventar procesos y
 ### Agilidad y adaptabilidad:
 En un entorno lleno de incertidumbre, las startups deben moverse rápido. Si una estrategia no funciona, se ajusta en días, no en años. Esa flexibilidad es esencial para sobrevivir y crecer en mercados cambiantes.
 # Financiamiento externo:
-Muchas startups optan por atraer inversión de ángeles, fondos de Venture Capital o, incluso crowdfunding. Esto les permite acelerar su crecimiento y competir a nivel global sin depender únicamente de sus ingresos propios.
+# Muchas startups optan por atraer inversión de ángeles, fondos de Venture Capital o, incluso crowdfunding. Esto les permite acelerar su crecimiento y competir a nivel global sin depender únicamente de sus ingresos propios.
 
 🔍 ¿Por qué están revolucionando el mundo?
 Las startups son el motor que impulsa la innovación y transforman industrias enteras. Su impacto va más allá de los números, influyendo en la forma en que vivimos, trabajamos y nos relacionamos.
