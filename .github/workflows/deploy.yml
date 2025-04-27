@@ -32,8 +32,12 @@ jobs:
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
+      - name: Debug Token
+        run: |
+          echo "Token exists: ${{ secrets.ACCESS_TOKEN != '' }}"
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.ACCESS_TOKEN }}
+          deploy_key: ${{ secrets.ACCESS_TOKEN }}
           publish_dir: ./dist 
