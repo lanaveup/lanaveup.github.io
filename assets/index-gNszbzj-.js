@@ -223,7 +223,7 @@ Defaulting to \`null\`.`}var Yw=qw,TL=Gw;const Xw=v.forwardRef(({className:e,val
 Imagina lo siguiente:
 Estás en una charla amena con amigos en una cafetería y, de repente, alguien menciona que trabaja en una “startup”. Todos asienten, pero en el fondo te surge la duda: ¿qué es realmente una startup? ¿Por qué es un término tan repetido en el mundo de los negocios y la tecnología? Hoy vamos a sumergirnos en este universo para despejar esas dudas y descubrir cómo este concepto está cambiando la forma en que imaginamos el futuro.
 
-# 🌟 El concepto: Mucho más que un negocio
+🌟 El concepto: Mucho más que un negocio
 Una startup no es simplemente una pequeña empresa; es una máquina de crecimiento. Se trata de una organización emergente diseñada para escalar de forma exponencial, aprovechando la tecnología y modelos de negocio innovadores.
 ¿Qué la hace tan especial?
 Escalabilidad:
