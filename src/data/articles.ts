@@ -21,7 +21,7 @@ Una startup no es simplemente una pequeña empresa; es una máquina de crecimien
 No se trata solo de vender un producto o servicio, sino de reinventar procesos y resolver problemas de manera radical. Empresas como Uber han revolucionado el transporte; y Netflix, el entretenimiento. Todo partiendo de ideas que rompieron lo establecido.
 ### Agilidad y adaptabilidad:
 En un entorno lleno de incertidumbre, las startups deben moverse rápido. Si una estrategia no funciona, se ajusta en días, no en años. Esa flexibilidad es esencial para sobrevivir y crecer en mercados cambiantes.
-Financiamiento externo:
+# Financiamiento externo:
 Muchas startups optan por atraer inversión de ángeles, fondos de Venture Capital o, incluso crowdfunding. Esto les permite acelerar su crecimiento y competir a nivel global sin depender únicamente de sus ingresos propios.
 
 🔍 ¿Por qué están revolucionando el mundo?
