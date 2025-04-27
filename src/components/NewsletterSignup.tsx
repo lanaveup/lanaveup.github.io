@@ -20,7 +20,7 @@ const NewsletterSignup = () => {
       setIsLoading(false);
       toast({
         title: "¡Suscripción exitosa!",
-        description: "Te has suscrito a La Nave Startup Pulse. Revisa tu correo para confirmar.",
+        description: "Te has suscrito a StartUpdate. Revisa tu correo para confirmar.",
         variant: "default",
       });
       setEmail('');
