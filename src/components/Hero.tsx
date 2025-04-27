@@ -70,7 +70,7 @@ const Hero = () => {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.4, duration: 0.5 }}
             >
-              <span className="gradient-text">La Nave Startup Pulse</span>
+              <span className="gradient-text">StartUpdate</span>
             </motion.h1>
             
             <motion.p 
