@@ -19,7 +19,7 @@ Una startup no es simplemente una pequeña empresa; es una máquina de crecimien
 ## Imagina una aplicación que puede llegar a millones de usuarios sin tener que abrir locales físicos. Esa es la capacidad de crecimiento de una startup: expandirse sin que sus costos aumenten al mismo ritmo.
 ### Innovación disruptiva:
 No se trata solo de vender un producto o servicio, sino de reinventar procesos y resolver problemas de manera radical. Empresas como Uber han revolucionado el transporte; y Netflix, el entretenimiento. Todo partiendo de ideas que rompieron lo establecido.
-Agilidad y adaptabilidad:
+### Agilidad y adaptabilidad:
 En un entorno lleno de incertidumbre, las startups deben moverse rápido. Si una estrategia no funciona, se ajusta en días, no en años. Esa flexibilidad es esencial para sobrevivir y crecer en mercados cambiantes.
 Financiamiento externo:
 Muchas startups optan por atraer inversión de ángeles, fondos de Venture Capital o, incluso crowdfunding. Esto les permite acelerar su crecimiento y competir a nivel global sin depender únicamente de sus ingresos propios.
