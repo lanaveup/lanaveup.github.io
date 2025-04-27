@@ -29,9 +29,9 @@ Las startups son el motor que impulsa la innovación y transforman industrias en
 Motor de innovación:
 Las ideas surgidas en startups han dado origen a servicios y tecnologías que usamos a diario. Desde apps de delivery hasta plataformas de streaming, estas empresas han roto esquemas y ofrecido soluciones revolucionarias.
 Generadoras de oportunidades:
-El ecosistema startup crea ambientes laborales vibrantes y dinámicos. Trabajar en una startup significa aprender rápidamente, asumir responsabilidades desde el inicio y desarrollar habilidades que te preparan para el futuro.
-Inspiración para soñar en grande:
-Las historias de éxito como las de Uber, Airbnb o Rappi nos demuestran que, con pasión y determinación, una idea sencilla puede transformar industrias y cambiar vidas. Estas narrativas nos invitan a creer que el cambio está al alcance de todos.
+### El ecosistema startup crea ambientes laborales vibrantes y dinámicos. Trabajar en una startup significa aprender rápidamente, asumir responsabilidades desde el inicio y desarrollar habilidades que te preparan para el futuro.
+### Inspiración para soñar en grande:
+### Las historias de éxito como las de Uber, Airbnb o Rappi nos demuestran que, con pasión y determinación, una idea sencilla puede transformar industrias y cambiar vidas. Estas narrativas nos invitan a creer que el cambio está al alcance de todos.
 
 🎓 ¿Y si el mundo startup fuera también para ti?
 Cuando pensamos en startups, solemos imaginar a programadores o expertos en tecnología. Pero la realidad es que el ecosistema emprendedor necesita talento de todas las carreras. De hecho, mientras más diversa es la mirada, más disruptiva puede ser la solución.
