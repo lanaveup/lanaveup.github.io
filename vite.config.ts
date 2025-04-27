@@ -14,6 +14,7 @@ export default defineConfig(({ mode }) => ({
       'Pragma': 'no-cache',
       'Expires': '0',
     },
+    historyApiFallback: true,
   },
   plugins: [
     react(),
