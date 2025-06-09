@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -93,54 +93,80 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-gradient-main-vertical text-white font-sans;
     scroll-behavior: smooth;
+    min-height: 100vh;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply font-display;
+    @apply font-display font-bold;
+    color: #f25cca;
+  }
+
+  p, span, div, a {
+    @apply text-white font-normal;
   }
 }
 
 @layer components {
   .nav-link {
-    @apply relative px-4 py-2 text-foreground/70 hover:text-foreground transition-colors;
+    @apply relative px-4 py-2 text-white/70 hover:text-white transition-colors font-normal;
   }
   
   .nav-link::after {
-    @apply content-[''] absolute bottom-0 left-0 w-0 h-0.5 bg-primary transition-all duration-300;
+    @apply content-[''] absolute bottom-0 left-0 w-0 h-0.5 transition-all duration-300;
+    background-color: #f25cca;
   }
   
   .nav-link:hover::after {
     @apply w-full;
   }
 
-  .article-card {
-    @apply bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300;
+  .gradient-text {
+    @apply bg-gradient-to-r bg-clip-text text-transparent font-bold;
+    background-image: linear-gradient(45deg, #f25cca, #ffffff);
+  }
+  
+  .cosmic-border {
+    @apply relative;
+  }
+  
+  .cosmic-border::after {
+    content: "";
+    @apply absolute -inset-[1px] rounded-[inherit] -z-10;
+    background: linear-gradient(45deg, #f25cca, #1e2674, #000320);
+    animation: rotate 4s linear infinite;
   }
 
-  .gradient-text {
-    @apply bg-gradient-to-r from-nave-blue via-nave-lightblue to-nave-green bg-clip-text text-transparent;
+  .cosmic-button {
+    @apply relative inline-flex items-center justify-center overflow-hidden rounded-md px-8 py-3 font-medium transition-all duration-300;
+    background: linear-gradient(135deg, #f25cca, #1e2674);
+    color: white;
   }
   
-  .text-gradient-nave {
-    @apply bg-gradient-to-r from-nave-blue to-nave-lightblue bg-clip-text text-transparent;
+  .cosmic-button::before {
+    content: "";
+    @apply absolute inset-0 opacity-90;
+    background: linear-gradient(135deg, #f25cca, #1e2674);
+    transition: transform 0.5s ease;
   }
   
-  .button-gradient {
-    @apply bg-gradient-to-r from-nave-blue to-nave-lightblue hover:from-nave-blue/90 hover:to-nave-lightblue/90;
+  .cosmic-button:hover::before {
+    transform: translateY(-2px);
   }
   
-  .card-hover {
-    @apply transition-all duration-300 hover:translate-y-[-5px] hover:shadow-lg;
+  .cosmic-button:hover {
+    box-shadow: 0 10px 20px rgba(242, 92, 202, 0.3);
   }
   
-  .glass-effect {
-    @apply backdrop-blur-md bg-white/50 border border-white/20;
+  .cosmic-button span {
+    @apply relative z-10 text-white font-medium;
   }
   
-  .pulse-subtle {
-    animation: pulse-subtle 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  .star {
+    @apply absolute bg-white rounded-full;
+    box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.8);
+    animation: twinkle 4s alternate infinite;
   }
 }
 
@@ -155,9 +181,15 @@
   50% { transform: translateY(-10px); }
 }
 
-@keyframes pulse-subtle {
-  0%, 100% { opacity: 1; transform: scale(1); }
-  50% { opacity: 0.8; transform: scale(0.98); }
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.3; box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.1); }
+  50% { opacity: 0.6; box-shadow: 0 0 8px 2px rgba(255, 255, 255, 0.4); }
+  100% { opacity: 1; box-shadow: 0 0 12px 3px rgba(255, 255, 255, 0.8); }
 }
 
 .animate-fade-in {
@@ -168,30 +200,6 @@
   animation: float 6s ease-in-out infinite;
 }
 
-.animate-pulse-gentle {
-  animation: pulse 3s ease-in-out infinite;
-}
-
-@keyframes pulse {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.7; }
-}
-
-/* Custom transitions */
-.hover-lift {
-  transition: transform 0.2s ease-out;
-}
-
-.hover-lift:hover {
-  transform: translateY(-5px);
-}
-
-/* Enhanced scrolling */
 html {
   scroll-behavior: smooth;
-}
-
-/* Fix for missing Button component in FeaturedArticles */
-.Button {
-  @apply inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50;
 }
